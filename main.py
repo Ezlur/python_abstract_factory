@@ -11,4 +11,5 @@ if __name__ == '__main__':
 
     app = QApplication(sys.argv)
     ex = gui.App(nerd_konkurs)
+    print('Goodbye World')
     sys.exit(app.exec_())
